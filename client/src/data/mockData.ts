@@ -1,0 +1,361 @@
+import type { Ticket } from '../types/ticket.types'
+
+export const mockTickets: Ticket[] = [
+  {
+    id: 'TKT-1042',
+    customerName: 'Aarav Sharma',
+    customerEmail: 'aarav.sharma@gmail.com',
+    subject: 'Unable to reset my account password',
+    description:
+      "I've tried the 'forgot password' link three times, but I still haven't received the reset email. I also checked my spam folder. Please help me, I can't log in to my account.",
+    priority: 'High',
+    status: 'Open',
+    createdAt: '2026-09-13T09:12:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Aarav Sharma',
+        role: 'customer',
+        text: "I've tried the 'forgot password' link three times, but I still haven't received the reset email.",
+        timestamp: '2026-09-13T09:12:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Priya (Support)',
+        role: 'agent',
+        text: 'Hi Aarav, sorry for the trouble. Can you please confirm the email address on your account?',
+        timestamp: '2026-09-13T09:40:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1041',
+    customerName: 'Isha Verma',
+    customerEmail: 'isha.verma@outlook.com',
+    subject: 'Charged twice for the same order',
+    description:
+      'My card was charged twice for order #88213. I need a refund for the extra charge as soon as possible.',
+    priority: 'High',
+    status: 'In Progress',
+    createdAt: '2026-09-12T14:05:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Isha Verma',
+        role: 'customer',
+        text: 'My card was charged twice for order #88213.',
+        timestamp: '2026-09-12T14:05:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Rohit (Support)',
+        role: 'agent',
+        text: "Thanks for letting us know. I can see the duplicate charge. I've sent it to the billing team for a refund.",
+        timestamp: '2026-09-12T15:22:00Z',
+      },
+      {
+        id: 'm3',
+        author: 'Isha Verma',
+        role: 'customer',
+        text: 'Thank you. Please let me know once the refund is processed.',
+        timestamp: '2026-09-12T15:30:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1040',
+    customerName: 'Karan Mehta',
+    customerEmail: 'karan.mehta@yahoo.com',
+    subject: 'Feature request: dark mode for mobile app',
+    description:
+      'I would like to have a dark mode option in the mobile app. Using the app at night is a bit hard on my eyes.',
+    priority: 'Low',
+    status: 'Open',
+    createdAt: '2026-09-12T08:30:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Karan Mehta',
+        role: 'customer',
+        text: 'I would like to have a dark mode option in the mobile app.',
+        timestamp: '2026-09-12T08:30:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1039',
+    customerName: 'Sneha Iyer',
+    customerEmail: 'sneha.iyer@gmail.com',
+    subject: 'App crashes when uploading a profile photo',
+    description:
+      "Every time I try to upload a new profile photo from my gallery, the app closes unexpectedly. I'm using an Android 14 device.",
+    priority: 'Medium',
+    status: 'In Progress',
+    createdAt: '2026-09-11T11:47:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Sneha Iyer',
+        role: 'customer',
+        text: 'The app closes every time I try to upload a profile photo.',
+        timestamp: '2026-09-11T11:47:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Rohit (Support)',
+        role: 'agent',
+        text: 'Thanks, Sneha. Our engineering team is checking this issue on Android 14 now.',
+        timestamp: '2026-09-11T13:05:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1038',
+    customerName: 'Vikram Nair',
+    customerEmail: 'vikram.nair@gmail.com',
+    subject: 'Invoice missing GST number',
+    description:
+      'The invoice I downloaded for last month does not show our company GST number. Can you correct it and send it again?',
+    priority: 'Medium',
+    status: 'Resolved',
+    createdAt: '2026-09-10T10:00:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Vikram Nair',
+        role: 'customer',
+        text: 'The invoice does not show our company GST number.',
+        timestamp: '2026-09-10T10:00:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Priya (Support)',
+        role: 'agent',
+        text: 'Sorry about that. We have corrected the invoice and emailed it to you.',
+        timestamp: '2026-09-10T12:15:00Z',
+      },
+      {
+        id: 'm3',
+        author: 'Vikram Nair',
+        role: 'customer',
+        text: 'I received it, thank you!',
+        timestamp: '2026-09-10T12:40:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1037',
+    customerName: 'Neha Kapoor',
+    customerEmail: 'neha.kapoor@hotmail.com',
+    subject: 'Cannot connect Google account for sign-in',
+    description:
+      "When I click 'Sign in with Google', it takes me back to the login page without showing any error.",
+    priority: 'High',
+    status: 'Open',
+    createdAt: '2026-09-14T07:20:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Neha Kapoor',
+        role: 'customer',
+        text: "When I click 'Sign in with Google', it just takes me back to the login page.",
+        timestamp: '2026-09-14T07:20:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1036',
+    customerName: 'Aditya Rao',
+    customerEmail: 'aditya.rao@gmail.com',
+    subject: 'Request to change billing cycle to annual',
+    description:
+      'We are currently on the monthly plan and would like to switch to annual billing to get the discount.',
+    priority: 'Low',
+    status: 'Resolved',
+    createdAt: '2026-09-08T09:00:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Aditya Rao',
+        role: 'customer',
+        text: 'We would like to switch to annual billing.',
+        timestamp: '2026-09-08T09:00:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Priya (Support)',
+        role: 'agent',
+        text: 'Done! Your account will be on the annual plan from the next billing cycle.',
+        timestamp: '2026-09-08T10:30:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1035',
+    customerName: 'Meera Joshi',
+    customerEmail: 'meera.joshi@gmail.com',
+    subject: 'Export to CSV button not working',
+    description:
+      "The 'Export to CSV' button on the reports page keeps loading and never downloads the file.",
+    priority: 'Medium',
+    status: 'Open',
+    createdAt: '2026-09-14T12:10:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Meera Joshi',
+        role: 'customer',
+        text: "The 'Export to CSV' button keeps loading and never downloads the file.",
+        timestamp: '2026-09-14T12:10:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1034',
+    customerName: 'Rahul Deshmukh',
+    customerEmail: 'rahul.deshmukh@gmail.com',
+    subject: 'Team member cannot be added to workspace',
+    description:
+      "When I try to invite a teammate by email, I get a 'Something went wrong' error.",
+    priority: 'Medium',
+    status: 'In Progress',
+    createdAt: '2026-09-13T16:45:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Rahul Deshmukh',
+        role: 'customer',
+        text: "I get a 'Something went wrong' error when I try to invite a teammate.",
+        timestamp: '2026-09-13T16:45:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Rohit (Support)',
+        role: 'agent',
+        text: "I'm checking this now. I'll update you shortly.",
+        timestamp: '2026-09-13T17:05:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1033',
+    customerName: 'Ananya Bose',
+    customerEmail: 'ananya.bose@gmail.com',
+    subject: 'Question about data retention policy',
+    description:
+      'How long do you keep deleted account data? I need this information for our internal review.',
+    priority: 'Low',
+    status: 'Resolved',
+    createdAt: '2026-09-05T09:30:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Ananya Bose',
+        role: 'customer',
+        text: 'How long do you keep deleted account data?',
+        timestamp: '2026-09-05T09:30:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Priya (Support)',
+        role: 'agent',
+        text: "We keep deleted account data for 30 days before permanently removing it. I'll send the full policy document by email.",
+        timestamp: '2026-09-05T11:00:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1032',
+    customerName: 'Farhan Ali',
+    customerEmail: 'farhan.ali@gmail.com',
+    subject: 'Mobile app push notifications not arriving',
+    description:
+      "I've enabled notifications in the settings, but I'm not receiving any push notifications on my iPhone.",
+    priority: 'Medium',
+    status: 'Open',
+    createdAt: '2026-09-14T06:50:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Farhan Ali',
+        role: 'customer',
+        text: "I'm not receiving any push notifications on my iPhone.",
+        timestamp: '2026-09-14T06:50:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1031',
+    customerName: 'Divya Menon',
+    customerEmail: 'divya.menon@gmail.com',
+    subject: 'Refund not received after cancellation',
+    description:
+      "I cancelled my subscription 10 days ago and was told the refund would take 5-7 business days, but I still haven't received it.",
+    priority: 'High',
+    status: 'In Progress',
+    createdAt: '2026-09-11T08:15:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Divya Menon',
+        role: 'customer',
+        text: "I still haven't received the refund after 10 days.",
+        timestamp: '2026-09-11T08:15:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Rohit (Support)',
+        role: 'agent',
+        text: "I've requested the refund again from our payment processor and marked it as urgent.",
+        timestamp: '2026-09-11T09:00:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1030',
+    customerName: 'Sanjay Gupta',
+    customerEmail: 'sanjay.gupta@gmail.com',
+    subject: 'API rate limit reached unexpectedly',
+    description:
+      'Our integration reached the API rate limit even though we are under our plan limit. Can you check our usage logs?',
+    priority: 'High',
+    status: 'Open',
+    createdAt: '2026-09-14T13:00:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Sanjay Gupta',
+        role: 'customer',
+        text: 'Our integration reached the API rate limit even though we are under our plan limit.',
+        timestamp: '2026-09-14T13:00:00Z',
+      },
+    ],
+  },
+  {
+    id: 'TKT-1029',
+    customerName: 'Priyanka Das',
+    customerEmail: 'priyanka.das@gmail.com',
+    subject: 'How do I add a second admin to my account?',
+    description:
+      "I couldn't find the option to add another admin in settings. Is this available on the current plan?",
+    priority: 'Low',
+    status: 'Resolved',
+    createdAt: '2026-09-06T10:20:00Z',
+    messages: [
+      {
+        id: 'm1',
+        author: 'Priyanka Das',
+        role: 'customer',
+        text: "I couldn't find the option to add another admin.",
+        timestamp: '2026-09-06T10:20:00Z',
+      },
+      {
+        id: 'm2',
+        author: 'Priya (Support)',
+        role: 'agent',
+        text: "It's under Settings → Team → Invite Admin. Let me know if you still can't find it.",
+        timestamp: '2026-09-06T11:00:00Z',
+      },
+    ],
+  },
+]
