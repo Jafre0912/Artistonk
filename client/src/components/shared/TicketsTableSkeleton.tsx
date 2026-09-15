@@ -2,7 +2,6 @@ import Skeleton from './Skeleton'
 export default function TicketsTableSkeleton({ rows = 5 }: { rows?: number }) {
   return (
     <div>
-      {/* Desktop / table view */}
       <div className="hidden overflow-x-auto md:block">
         <table className="w-full text-sm">
           <thead>

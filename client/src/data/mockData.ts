@@ -3,8 +3,8 @@ import type { Ticket } from '../types/ticket.types'
 export const mockTickets: Ticket[] = [
   {
     id: 'TKT-1042',
-    customerName: 'Aarav Sharma',
-    customerEmail: 'aarav.sharma@gmail.com',
+    customerName: 'JAFRE ALAM',
+    customerEmail: 'jafre11@gmail.com',
     subject: 'Unable to reset my account password',
     description:
       "I've tried the 'forgot password' link three times, but I still haven't received the reset email. I also checked my spam folder. Please help me, I can't log in to my account.",
@@ -14,24 +14,24 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Aarav Sharma',
+        author: 'JAFRE ALAM',
         role: 'customer',
         text: "I've tried the 'forgot password' link three times, but I still haven't received the reset email.",
         timestamp: '2026-09-13T09:12:00Z',
       },
       {
         id: 'm2',
-        author: 'Priya (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
-        text: 'Hi Aarav, sorry for the trouble. Can you please confirm the email address on your account?',
+        text: 'Hi JAFRE, sorry for the trouble. Can you please confirm the email address on your account?',
         timestamp: '2026-09-13T09:40:00Z',
       },
     ],
   },
   {
     id: 'TKT-1041',
-    customerName: 'Isha Verma',
-    customerEmail: 'isha.verma@outlook.com',
+    customerName: 'Rajat Patidar',
+    customerEmail: 'rajat09@outlook.com',
     subject: 'Charged twice for the same order',
     description:
       'My card was charged twice for order #88213. I need a refund for the extra charge as soon as possible.',
@@ -41,21 +41,21 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Isha Verma',
+        author: 'Rajat Patidar',
         role: 'customer',
         text: 'My card was charged twice for order #88213.',
         timestamp: '2026-09-12T14:05:00Z',
       },
       {
         id: 'm2',
-        author: 'Rohit (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
         text: "Thanks for letting us know. I can see the duplicate charge. I've sent it to the billing team for a refund.",
         timestamp: '2026-09-12T15:22:00Z',
       },
       {
         id: 'm3',
-        author: 'Isha Verma',
+        author: 'Rajat Patidar',
         role: 'customer',
         text: 'Thank you. Please let me know once the refund is processed.',
         timestamp: '2026-09-12T15:30:00Z',
@@ -64,8 +64,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1040',
-    customerName: 'Karan Mehta',
-    customerEmail: 'karan.mehta@yahoo.com',
+    customerName: 'Karan Chaurasiya',
+    customerEmail: 'karan12@yahoo.com',
     subject: 'Feature request: dark mode for mobile app',
     description:
       'I would like to have a dark mode option in the mobile app. Using the app at night is a bit hard on my eyes.',
@@ -75,7 +75,7 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Karan Mehta',
+        author: 'Karan Chaurasiya',
         role: 'customer',
         text: 'I would like to have a dark mode option in the mobile app.',
         timestamp: '2026-09-12T08:30:00Z',
@@ -84,8 +84,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1039',
-    customerName: 'Sneha Iyer',
-    customerEmail: 'sneha.iyer@gmail.com',
+    customerName: 'Sallu Bhai',
+    customerEmail: 'sallubhai@gmail.com',
     subject: 'App crashes when uploading a profile photo',
     description:
       "Every time I try to upload a new profile photo from my gallery, the app closes unexpectedly. I'm using an Android 14 device.",
@@ -95,24 +95,24 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Sneha Iyer',
+        author: 'Sallu Bhai',
         role: 'customer',
         text: 'The app closes every time I try to upload a profile photo.',
         timestamp: '2026-09-11T11:47:00Z',
       },
       {
         id: 'm2',
-        author: 'Rohit (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
-        text: 'Thanks, Sneha. Our engineering team is checking this issue on Android 14 now.',
+        text: 'Thanks, Sallu. Our engineering team is checking this issue on Android 14 now.',
         timestamp: '2026-09-11T13:05:00Z',
       },
     ],
   },
   {
     id: 'TKT-1038',
-    customerName: 'Vikram Nair',
-    customerEmail: 'vikram.nair@gmail.com',
+    customerName: 'Big Boss',
+    customerEmail: 'bigboss@gmail.com',
     subject: 'Invoice missing GST number',
     description:
       'The invoice I downloaded for last month does not show our company GST number. Can you correct it and send it again?',
@@ -122,21 +122,21 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Vikram Nair',
+        author: 'Big Boss',
         role: 'customer',
         text: 'The invoice does not show our company GST number.',
         timestamp: '2026-09-10T10:00:00Z',
       },
       {
         id: 'm2',
-        author: 'Priya (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
         text: 'Sorry about that. We have corrected the invoice and emailed it to you.',
         timestamp: '2026-09-10T12:15:00Z',
       },
       {
         id: 'm3',
-        author: 'Vikram Nair',
+        author: 'Big Boss',
         role: 'customer',
         text: 'I received it, thank you!',
         timestamp: '2026-09-10T12:40:00Z',
@@ -145,8 +145,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1037',
-    customerName: 'Neha Kapoor',
-    customerEmail: 'neha.kapoor@hotmail.com',
+    customerName: 'Qazi Rock',
+    customerEmail: 'qazi.rock@hotmail.com',
     subject: 'Cannot connect Google account for sign-in',
     description:
       "When I click 'Sign in with Google', it takes me back to the login page without showing any error.",
@@ -156,7 +156,7 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Neha Kapoor',
+        author: 'Qazi Rock',
         role: 'customer',
         text: "When I click 'Sign in with Google', it just takes me back to the login page.",
         timestamp: '2026-09-14T07:20:00Z',
@@ -165,8 +165,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1036',
-    customerName: 'Aditya Rao',
-    customerEmail: 'aditya.rao@gmail.com',
+    customerName: 'Aditya Pandit',
+    customerEmail: 'aditya.pandit@gmail.com',
     subject: 'Request to change billing cycle to annual',
     description:
       'We are currently on the monthly plan and would like to switch to annual billing to get the discount.',
@@ -176,14 +176,14 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Aditya Rao',
+        author: 'Aditya Pandit',
         role: 'customer',
         text: 'We would like to switch to annual billing.',
         timestamp: '2026-09-08T09:00:00Z',
       },
       {
         id: 'm2',
-        author: 'Priya (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
         text: 'Done! Your account will be on the annual plan from the next billing cycle.',
         timestamp: '2026-09-08T10:30:00Z',
@@ -212,8 +212,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1034',
-    customerName: 'Rahul Deshmukh',
-    customerEmail: 'rahul.deshmukh@gmail.com',
+    customerName: 'Virat Kohli',
+    customerEmail: 'virat.kohli@gmail.com',
     subject: 'Team member cannot be added to workspace',
     description:
       "When I try to invite a teammate by email, I get a 'Something went wrong' error.",
@@ -223,14 +223,14 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Rahul Deshmukh',
+        author: 'Virat Kohli',
         role: 'customer',
         text: "I get a 'Something went wrong' error when I try to invite a teammate.",
         timestamp: '2026-09-13T16:45:00Z',
       },
       {
         id: 'm2',
-        author: 'Rohit (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
         text: "I'm checking this now. I'll update you shortly.",
         timestamp: '2026-09-13T17:05:00Z',
@@ -239,8 +239,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1033',
-    customerName: 'Ananya Bose',
-    customerEmail: 'ananya.bose@gmail.com',
+    customerName: 'MS Dhoni',
+    customerEmail: 'ms.dhoni@gmail.com',
     subject: 'Question about data retention policy',
     description:
       'How long do you keep deleted account data? I need this information for our internal review.',
@@ -250,14 +250,14 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Ananya Bose',
+        author: 'MS Dhoni',
         role: 'customer',
         text: 'How long do you keep deleted account data?',
         timestamp: '2026-09-05T09:30:00Z',
       },
       {
         id: 'm2',
-        author: 'Priya (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
         text: "We keep deleted account data for 30 days before permanently removing it. I'll send the full policy document by email.",
         timestamp: '2026-09-05T11:00:00Z',
@@ -267,7 +267,7 @@ export const mockTickets: Ticket[] = [
   {
     id: 'TKT-1032',
     customerName: 'Farhan Ali',
-    customerEmail: 'farhan.ali@gmail.com',
+    customerEmail: 'farhan@gmail.com',
     subject: 'Mobile app push notifications not arriving',
     description:
       "I've enabled notifications in the settings, but I'm not receiving any push notifications on my iPhone.",
@@ -286,8 +286,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1031',
-    customerName: 'Divya Menon',
-    customerEmail: 'divya.menon@gmail.com',
+    customerName: 'Divya Kumari',
+    customerEmail: 'divya.kumari@gmail.com',
     subject: 'Refund not received after cancellation',
     description:
       "I cancelled my subscription 10 days ago and was told the refund would take 5-7 business days, but I still haven't received it.",
@@ -297,14 +297,14 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Divya Menon',
+        author: 'Divya Kumari',
         role: 'customer',
         text: "I still haven't received the refund after 10 days.",
         timestamp: '2026-09-11T08:15:00Z',
       },
       {
         id: 'm2',
-        author: 'Rohit (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
         text: "I've requested the refund again from our payment processor and marked it as urgent.",
         timestamp: '2026-09-11T09:00:00Z',
@@ -333,8 +333,8 @@ export const mockTickets: Ticket[] = [
   },
   {
     id: 'TKT-1029',
-    customerName: 'Priyanka Das',
-    customerEmail: 'priyanka.das@gmail.com',
+    customerName: 'Pradeep LPU',
+    customerEmail: 'pradeep1@gmail.com',
     subject: 'How do I add a second admin to my account?',
     description:
       "I couldn't find the option to add another admin in settings. Is this available on the current plan?",
@@ -344,14 +344,14 @@ export const mockTickets: Ticket[] = [
     messages: [
       {
         id: 'm1',
-        author: 'Priyanka Das',
+        author: 'Bishnu (Support)',
         role: 'customer',
         text: "I couldn't find the option to add another admin.",
         timestamp: '2026-09-06T10:20:00Z',
       },
       {
         id: 'm2',
-        author: 'Priya (Support)',
+        author: 'SanjeeJi (Support)',
         role: 'agent',
         text: "It's under Settings → Team → Invite Admin. Let me know if you still can't find it.",
         timestamp: '2026-09-06T11:00:00Z',

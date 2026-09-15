@@ -28,18 +28,18 @@ export default function TicketFilters({
       <SearchBar value={search} onChange={onSearchChange} placeholder="Search by customer, subject or ticket ID…" />
 
       <div className="flex items-center gap-2 flex-wrap">
-        <FilterBar
-          label="Statuses"
-          value={statusFilter}
-          options={STATUS_OPTIONS}
-          onChange={(value) => onStatusFilterChange(value as StatusFilter)}
-        />
-        <FilterBar
-          label="Priorities"
-          value={priorityFilter}
-          options={PRIORITY_OPTIONS}
-          onChange={(value) => onPriorityFilterChange(value as PriorityFilter)}
-        />
+      <FilterBar
+  label="Status"
+  value={statusFilter}
+  options={STATUS_OPTIONS}
+  onChange={(value) => onStatusFilterChange(value as StatusFilter)}
+/>
+<FilterBar
+  label="Priority"
+  value={priorityFilter}
+  options={PRIORITY_OPTIONS}
+  onChange={(value) => onPriorityFilterChange(value as PriorityFilter)}
+/>
 
         <button
           onClick={onNewTicket}
